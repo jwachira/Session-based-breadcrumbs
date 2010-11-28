@@ -1,0 +1,11 @@
+Atimes we want to track a the path a user follows when browsing through web pages.Current breadcrumb libraries follow the root node
+which means all the child nodes must have relationship to the root node.
+
+In this case we just want to track the path that the user followed to where they are right now.
+
+all you need to is add include the module in helper or something like that 
+
+and in your views do 
+
+<%= bread_crumbs %>
+
